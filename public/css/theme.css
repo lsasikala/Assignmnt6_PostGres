@@ -1,0 +1,92 @@
+@import url('https://www.canva.com/colors/color-wheel');
+@import url('https://www.cssmatic.com/box-shadow');
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital@1&family=Bacasime+Antique&family=Fasthand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Fira+Sans+Condensed:ital,wght@0,500;1,400&display=swap');
+
+
+body,html {
+    background: plum; 
+    background: linear-gradient( to bottom, plum, lavender);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    width: 100%;
+    height: 100%;
+    overflow: auto
+}
+body {
+    font-family: 'Bacasime Antique', serif;
+    color: blue
+    ;
+}
+
+
+.navbar.bg-light {
+  background: linear-gradient(to bottom, lightblue, plum);
+  box-shadow: 10px 5px 10px violet;
+}
+
+.navbar-light .navbar-brand {
+    font-family: 'Fasthand', cursive;;
+    color: rgba(red, green, blue, alpha);
+    text-shadow: 10px 2px 40px rgba(232, 64, 64, 0.2);
+}
+
+.nav-link {
+    font-family: 'Fasthand', cursive;
+    color: blueviolet
+
+}
+
+.nav-link:hover {
+    color: rgb(241, 180, 14)
+}
+
+
+.btn-primary {
+    background-color: #e1ccd9;
+    background-image: linear-gradient(to bottom, blue, pink);
+    box-shadow: 0 0.5rem 1rem rgba(0, 123, 255, 0.2);
+    color: #fff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #ed31ae;
+    background-image: linear-gradient(to bottom,  green,gold);
+    box-shadow: 0 0.5rem 1rem rgba(0, 105, 217, 0.2);
+  }
+
+ 
+  table tr:nth-child(odd) td {
+    background-color: plum;
+    background-image: linear-gradient(to bottom, rgb(125, 124, 128), rgb(219, 113, 14));
+    color:#074707
+}
+
+/* Styling for even rows */
+table tr:nth-child(even) td {
+    background-color: lightblue;
+    /* Add other styles for even rows here */
+}
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Fasthand', cursive;
+    color: #dd2121f9; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+  }
+
+  a {
+    color: #0619c6; 
+  }
+  
+  a:hover {
+    color: #074707; 
+  }
+  fieldset legend {
+    padding: 10px 0; 
+    
+    font-family: 'Fira Sans Condensed', sans-serif;
+    color: #584eef; 
+    text-shadow: 12px 12px 12px rgba(123, 0, 234, 0.5); 
+    
+  }
